@@ -1,6 +1,6 @@
 {
-  "homepage": "https://dev-gaju.github.io/myself",
-  "name": "dev-gaju",
+  "homepage": "https://dev-gaju.github.io/myself/",
+  "name": "myself",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
