@@ -1,28 +1,28 @@
 import React from "react";
-import { publications } from "../resources/allData";
+import {kaggles} from "../resources/allData";
 
-const PublicationUI = ({ publication }) => {
+const KaggleUI = ({ kaggle }) => {
   return (
     <tr>
       <td className="p-1 md:p-2 w-1/4 shadow-md bg-white align-middle rounded-lg">
         <div className="w-16 md:w-40 h-16 md:h-32 mx-auto overflow-hidden">
           <img
             className="w-full text-sm"
-            alt={publication.title}
-            src={require(`../assets/research/${publication.image}`)}
+            alt={kaggle.title}
+            src={require(`../assets/research/${kaggle.image}`)}
           />
         </div>
       </td>
       <td className="p-1 md:p-5 w-3/4 align-top">
         <div className="font-poppins block">
           <a
-            href={publication.src}
+            href={kaggle.src}
             className="block text-teal-600 hover:text-teal-500 text-base cursor-pointer"
           >
-            <span>{publication.title}</span>
+            <span>{kaggle.title}</span>
           </a>
           <span className="block text-[#3d4346] text-sm mb-1">
-            {publication.authors.map((it) => {
+            {kaggle.authors.map((it) => {
               return it === "Gazuruddin" || it === "Gazuruddin" ? (
                 <span className="text-slate-800 font-semibold" key={it}>
                   {it},{" "}
@@ -33,7 +33,7 @@ const PublicationUI = ({ publication }) => {
             })}
           </span>
           <span className="block text-[#3d434680] text-sm">
-            {publication.organization}, {publication.year}
+            {kaggle.organization}, {kaggle.year}
           </span>
         </div>
       </td>
@@ -41,18 +41,18 @@ const PublicationUI = ({ publication }) => {
   );
 };
 
-const Publications = () => {
+const Kaggles = () => {
   return (
     <div className="mb-8">
-      <h1 className="text-[#3d4346] font-light text-3xl font-poppins leading-5 break-words mb-2">Publications</h1>
+      <h1 className="text-[#3d4346] font-light text-3xl font-poppins leading-5 break-words mb-2">Other works</h1>
       <div>
         <table className="border-separate border-spacing-2">
           <tbody>
-            {publications.map((publication) => {
+            {kaggles.map((kaggle) => {
               return (
-                <PublicationUI
-                  key={publication.title}
-                  publication={publication}
+                <KaggleUI
+                  key={kaggle.title}
+                  kaggle={kaggle}
                 />
               );
             })}
@@ -63,4 +63,4 @@ const Publications = () => {
   );
 };
 
-export default Publications;
+export default Kaggles;

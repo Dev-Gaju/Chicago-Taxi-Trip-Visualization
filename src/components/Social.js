@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaInstagram, FaGraduationCap } from "react-icons/fa";
+import {FaLinkedin, FaKaggle, FaResearchgate, FaMedium, FaStackOverflow} from "react-icons/fa";
 
 const Social = () => {
   return (
@@ -7,7 +7,7 @@ const Social = () => {
       <li className="mr-1">
         <a
           className="text-base text-[#272935]"
-          href="https://linkedin.com/in/iansarker"
+          href="https://www.linkedin.com/in/gajuahmd10/"
         >
           <FaLinkedin className="w-5 h-5 text-teal-600 hover:text-teal-500" />
         </a>
@@ -15,19 +15,37 @@ const Social = () => {
       <li className="mx-1">
         <a
           className="text-base text-[#272935]"
-          href="https://www.instagram.com/sarker_anis_"
+          href="https://www.kaggle.com/gazu468"
         >
-          <FaInstagram className="w-5 h-5 text-teal-600 hover:text-teal-500" />
+          <FaKaggle  className="w-5 h-5 text-teal-600 hover:text-teal-500" />
         </a>
       </li>
       <li className="ml-1">
         <a
           className="text-base text-[#272935]"
-          href="https://scholar.google.com/citations?user=DGp3Q3wAAAAJ&hl=en&authuser=1"
+          href="https://www.researchgate.net/profile/Gaju-Ahmed"
         >
-          <FaGraduationCap className="w-5 h-5 text-teal-600 hover:text-teal-500" />
+          <FaResearchgate className="w-5 h-5 text-teal-600 hover:text-teal-500" />
         </a>
       </li>
+        <li className="ml-1">
+        <a
+          className="text-base text-[#272935]"
+          href="https://medium.com/@gajuahmd"
+        >
+          <FaMedium className="w-5 h-5 text-teal-600 hover:text-teal-500" />
+        </a>
+      </li>
+
+        <li className="ml-1">
+        <a
+          className="text-base text-[#272935]"
+          href="https://stackoverflow.com/users/12081080/md-gazuruddin"
+        >
+          <FaStackOverflow className="w-5 h-5 text-teal-600 hover:text-teal-500" />
+        </a>
+      </li>
+
     </ul>
   );
 };

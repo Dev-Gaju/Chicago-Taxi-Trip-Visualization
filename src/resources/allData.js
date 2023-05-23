@@ -2,83 +2,153 @@ export const publications = [
   {
     id: 1,
     title:
-      "Applying State-of-the-Art Deep-Learning Methods to Classify Urban Cities of the Developing World",
+      "Classification of Deep-SAT Images under Label Noise",
     authors: [
-      "AKM Mahbubur Rahman",
-      "Moinul Zaber",
-      "Qianwei Cheng",
-      "Abu Bakar Siddik Nayem",
-      "Anis Sarker",
-      "Ovi Paul",
-      "Ryosuke Shibasaki",
+      "Mohammad Minhazul Alam",
+      "Md Gazuruddin",
+      "Nahian Ahmed",
+      "Abdul Motaleb",
+      "Masud Rana",
+      "Romman Riyadh Shishir",
+      "Sabrina Yeasmin",
+      "Rashedur M. Rahman",
     ],
     year: "2021",
-    organization: "Sensors Journal, MDPI",
+    organization: "Taylor & Francis",
     type: "journal",
     status: "published",
-    src: "https://www.mdpi.com/1424-8220/21/22/7469",
-    image: "sensors-21.jpg",
+    src: "https://www.tandfonline.com/doi/full/10.1080/08839514.2021.1975381",
+    image: "sensors-21.png",
   },
+  // {
+  //   id: 2,
+  //   title:
+  //     "Deep-learning Coupled with Novel Classification Method to Classify the Urban Environment of the Developing World",
+  //   authors: [
+  //     "Qianwei Cheng",
+  //     "AKM Mahbubur Rahman",
+  //     "Anis Sarker",
+  //     "Abu Bakar Siddik Nayem",
+  //     "Ovi Paul",
+  //     "Amin Ahsan Ali",
+  //     "M Ashraful Amin",
+  //     "Ryosuke Shibasaki",
+  //     "Moinul Zaber",
+  //   ],
+  //   year: "2020",
+  //   organization: "ICRSETE",
+  //   type: "conference",
+  //   status: "published",
+  //   src: "https://aircconline.com/csit/papers/vol11/csit110103.pdf",
+  //   image: "deeplearning_coupled.png",
+  // },
+  // {
+  //   id: 3,
+  //   title:
+  //     "A Novel Disaster Image Data-set and Characteristics Analysis using Attention Model",
+  //   authors: [
+  //     "Fahim Faisal Niloy",
+  //     "Arif",
+  //     "Abu Bakar Siddik Nayem",
+  //     "Anis Sarker",
+  //     "Ovi Paul",
+  //     "M Ashraful Amin",
+  //     "Amin Ahsan Ali",
+  //     "Moinul Islam Zaber",
+  //     "AKM Mahbubur Rahman",
+  //   ],
+  //   year: "2020",
+  //   organization: "ICPR",
+  //   type: "conference",
+  //   status: "published",
+  //   src: "https://arxiv.org/abs/2107.01284",
+  //   image: "disaster.png",
+  // },
+  // {
+  //   id: 4,
+  //   title: "LULC Segmentation of RGB Satellite Image Using FCN-8",
+  //   authors: [
+  //     "A.B.S Nayem",
+  //     "A Sarker",
+  //     "A.A Ali",
+  //     "M.A Amin",
+  //     "A.K.M M Rahman",
+  //   ],
+  //   year: "2019",
+  //   organization: "SLAAI",
+  //   type: "conference",
+  //   status: "published",
+  //   src: "https://arxiv.org/abs/2008.10736",
+  //   image: "lulc.png",
+  // },
+];
+
+export const kaggles = [
   {
+    id: 1,
+    title:
+      "All about Bert you need to know",
+    authors: ["In this tutorial I'll show you how to use BERT with the huggingface PyTorch library to quickly and efficiently fine-tune a model to get near state of the art performance in sentence classification.",
+    ],
+    year: "2023",
+    organization: "Kaggle Notebook",
+    type: "journal",
+    status: "published",
+    src: "https://www.kaggle.com/code/gazu468/all-about-bert-you-need-to-know",
+    image: "bert.png",
+  },
+    {
     id: 2,
     title:
-      "Deep-learning Coupled with Novel Classification Method to Classify the Urban Environment of the Developing World",
-    authors: [
-      "Qianwei Cheng",
-      "AKM Mahbubur Rahman",
-      "Anis Sarker",
-      "Abu Bakar Siddik Nayem",
-      "Ovi Paul",
-      "Amin Ahsan Ali",
-      "M Ashraful Amin",
-      "Ryosuke Shibasaki",
-      "Moinul Zaber",
+      "Feather to compress your data(8x Faster)",
+    authors: ["Feather file, takes less than half of the space, than the corresponding CSV file, having same data. Feather files are 100 times faster, while reading and writing from the disk, as compared to CSV file.",
     ],
-    year: "2020",
-    organization: "ICRSETE",
-    type: "conference",
+    year: "2022",
+    organization: "Kaggle Notebook",
+    type: "journal",
     status: "published",
-    src: "https://aircconline.com/csit/papers/vol11/csit110103.pdf",
-    image: "deeplearning_coupled.png",
+    src: "https://www.kaggle.com/code/gazu468/feather-to-compress-your-data-8x-faster",
+    image: "feather.png",
   },
-  {
+
+    {
     id: 3,
     title:
-      "A Novel Disaster Image Data-set and Characteristics Analysis using Attention Model",
-    authors: [
-      "Fahim Faisal Niloy",
-      "Arif",
-      "Abu Bakar Siddik Nayem",
-      "Anis Sarker",
-      "Ovi Paul",
-      "M Ashraful Amin",
-      "Amin Ahsan Ali",
-      "Moinul Islam Zaber",
-      "AKM Mahbubur Rahman",
+      "TPS[DEC] EDA + Modeling",
+    authors: ["In this notebook, I participate this competition & make notebook on that, where I first read that dataset then do EDA, after feature engineering & selection, divided data using train_test_split apply several model like catboost, XGBoost .",
     ],
-    year: "2020",
-    organization: "ICPR",
-    type: "conference",
+    year: "2021",
+    organization: "Kaggle Notebook",
+    type: "journal",
     status: "published",
-    src: "https://arxiv.org/abs/2107.01284",
-    image: "disaster.png",
+    src: "https://www.kaggle.com/code/gazu468/tps-dec-eda-modeling",
+    image: "tabular.jpg",
   },
-  {
+     {
     id: 4,
-    title: "LULC Segmentation of RGB Satellite Image Using FCN-8",
-    authors: [
-      "A.B.S Nayem",
-      "A Sarker",
-      "A.A Ali",
-      "M.A Amin",
-      "A.K.M M Rahman",
+    title:
+      "Boosting Algorithm: 5 Minutes With AdaBoost",
+    authors: ["Ensemble learning, any idea about this? Basically, ensemble defines as combining several learners together to build a better model to enhance the accuracy. More Precisely, Imagine someone telling you to guess the animal name by giving several features of it, is it possible? Yay… it's possible.",
     ],
-    year: "2019",
-    organization: "SLAAI",
-    type: "conference",
+    year: "2021",
+    organization: "Medium Article",
+    type: "journal",
     status: "published",
-    src: "https://arxiv.org/abs/2008.10736",
-    image: "lulc.png",
+    src: "https://medium.com/@gajuahmd/5-minutes-with-adaboost-5b4462f13d4b",
+    image: "boosting.png",
+  },
+    {
+    id: 4,
+    title:
+      "Render: Upload Flask and Streamlit Project in Minutes",
+    authors: ["Heroku is one of the best online Platforms for students or any kind of freelancer to live their Projects. Then what happened? Heroku declare they do not provide any kind of free hosting from Dec-22. That decision created a very bad impact on those who really utilize Heroku in a good way and also a bad way.",
+    ],
+    year: "2023",
+    organization: "Medium Article",
+    type: "journal",
+    status: "published",
+    src: "https://medium.com/@gajuahmd/render-upload-flask-and-streamlit-project-in-minutes-82eec27063f6",
+    image: "render.jpg",
   },
 ];
 
@@ -135,10 +205,10 @@ export const programming_skills = [
     title: "Python",
   },
   {
-    title: "C++",
+    title: "PHP",
   },
   {
-    title: "Matlab",
+    title: "R",
   },
   {
     title: "Java",
@@ -186,25 +256,26 @@ export const lib_framework_skills = [
     title: "Seaborn",
   },
   {
-    title: "Nodejs",
+    title: "Plotly",
   },
+
   {
-    title: "Reactjs",
+    title: "Vuejs",
   },
-  {
-    title: "React native",
+ {
+    title: "Django",
   },
   {
     title: "Mongodb",
+  },
+  {
+    title: "Oracle",
   },
   {
     title: "Flask"
   },
   {
     title: "Selenium"
-  },
-  {
-    title: "Android",
   },
   {
     title: "Gdal(Python gis libraries)",
@@ -219,7 +290,13 @@ export const other_skills = [
     title: "SSH",
   },
   {
-    title: "Tmux",
+    title: "RestAPI",
+  },
+  {
+    title: "Beautifulsoup",
+  },
+ {
+    title: "Streamlit",
   },
   {
     title: "Latex",

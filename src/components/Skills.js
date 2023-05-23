@@ -1,5 +1,5 @@
 import React from "react";
-import { programming_skills, lib_framework_skills, other_skills } from "./../resources/allData";
+import { programming_skills, lib_framework_skills, other_skills } from "../resources/allData";
 
 const SkillUi = ({ val }) => {
   return (

@@ -5,6 +5,7 @@ import Whitebeard from "../assets/icons/whitebeard.png";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+
   const handleToggle = () => {
     setOpen(!open);
   };
@@ -23,8 +24,7 @@ const Navbar = () => {
         <div className="hidden sm:block">
           <div className="flex flex-row justify-between">
             <Link
-              to="/iansarker"
-              spy={true}
+              to="myself"
               smooth={true}
               offset={-70}
               duration={500}
@@ -33,17 +33,27 @@ const Navbar = () => {
               <img
                 alt="whitebeard pirates"
                 src={Whitebeard}
-                className=" h-8 w-8"
+                className="h-8 w-8"
               />
             </Link>
             <span className="flex flex-row">
-              <Link to="/iansarker" className="text-black border border-black hover:border-white hover:text-black hover:bg-white  font-poppins font-base font-medium flex items-center px-3 py-1 rounded-md cursor-pointer">Home</Link>
               <Link
-                to="https://drive.google.com/file/d/1viRTErqDRJ-rlLUSSOms7uYy67Jc_JER/view?usp=sharing"
-                className="text-black  font-poppins font-base font-medium hover:underline flex items-center hover:text-black px-3 py-1 rounded-md cursor-pointer"
+                to="myself"
+                smooth={true}
+                offset={-70}
+                duration={500}
+                className="text-black border border-black hover:border-white hover:text-black hover:bg-white font-poppins font-base font-medium flex items-center px-3 py-1 rounded-md cursor-pointer"
+              >
+                Home
+              </Link>
+              <a
+                href="https://drive.google.com/file/d/1YMMW_jOHN_hR5ChrGbixfCcP56wrN-cQ/view?usp=share_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-black font-poppins font-base font-medium hover:underline flex items-center hover:text-black px-3 py-1 rounded-md cursor-pointer"
               >
                 <span>CV/Resume</span>
-              </Link>
+              </a>
             </span>
           </div>
         </div>
@@ -53,7 +63,7 @@ const Navbar = () => {
       <div className={open ? "md:hidden" : "hidden"} onClick={handleToggle}>
         <div className="mb-2">
           <Link
-            to="/iansarker"
+            to="/myself"
             spy={true}
             smooth={true}
             offset={-70}

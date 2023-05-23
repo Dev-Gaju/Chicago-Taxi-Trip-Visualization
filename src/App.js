@@ -12,7 +12,7 @@ class App extends React.Component {
         <Router>
           <Navbar />
           <Switch>
-            <Route path="/iansarker" exact component={Home} />
+            <Route path="/myself" exact component={Home} />
           </Switch>
           <Footer />
         </Router>

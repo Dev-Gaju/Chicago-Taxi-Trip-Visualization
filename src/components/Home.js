@@ -4,6 +4,8 @@ import About from "./About";
 import Publications from "./Publications";
 import Projects from "./Projects";
 import Experience from "./Experience";
+import Kaggle from "./Kaggle";
+
 
 const Wrapper = ({ children, id }) => {
   return (
@@ -17,7 +19,7 @@ const Home = () => {
   return (
     <div
       className="w-full md:w-2/3 lg:w-2/3 xl:w-1/2 mx-auto pt-20"
-      id="/iansarker"
+      id="/myself"
     >
       <Wrapper id="about">
         <About />
@@ -33,6 +35,9 @@ const Home = () => {
       </Wrapper>
       <Wrapper id="projects">
         <Projects />
+      </Wrapper>
+      <Wrapper id="kaggles">
+        <Kaggle />
       </Wrapper>
     </div>
   );
